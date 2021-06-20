@@ -5,10 +5,24 @@
         .navbar-nav,
         .navbar-toggler {
             background-color: #fff;
-            padding: 0.5rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
                 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            border-radius: 0.5rem;
+            border-radius: 1rem;
+        }
+        .navbar-brand {
+            padding: 1rem;
+            font-size: 1rem;
+            margin: 0.5rem;
+        }
+        .navbar-nav {
+            .nav-link {
+                padding: 0.5rem 1rem;
+                margin: 0.5rem;
+                &:hover {
+                    background-color: #d7e8ff;
+                    border-radius: 0.5rem;
+                }
+            }
         }
         .collapse {
             margin: 1rem 0;
