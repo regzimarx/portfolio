@@ -1,5 +1,6 @@
 .Home {
     padding-top: 100px;
+    z-index: 2;
     .hero {
         .hero-text {
             margin: 0.5rem;
@@ -8,6 +9,7 @@
                 font-size: 48px;
                 font-weight: 700;
                 line-height: 1;
+                text-shadow: 10px 15px rgba(0, 0, 0, 0.1);
             }
             h2 {
                 font-size: 24px;
