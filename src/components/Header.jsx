@@ -32,7 +32,7 @@ function Header() {
               <NavLink className="nav-link resume" to="/resume" onClick={()=>document.querySelector('.App').style.backgroundColor="#ffeed7"}>Resume</NavLink>
               <NavLink className="nav-link services" to="/services" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7ffd7"}>Services</NavLink>
               <NavLink className="nav-link portfolio" to="/portfolio" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7fffd"}>Portfolio</NavLink>
-              <a className="nav-link contact" href="#">Contact</a>
+              <NavLink className="nav-link contact" to="/contact" onClick={()=>document.querySelector('.App').style.backgroundColor="#f4d7ff"}>Contact</NavLink>
             </div>
           </div>
         </div>
