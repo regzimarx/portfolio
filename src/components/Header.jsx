@@ -31,7 +31,7 @@ function Header() {
               <NavLink className="nav-link about" to="/about" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7ddff"}>About</NavLink>
               <NavLink className="nav-link resume" to="/resume" onClick={()=>document.querySelector('.App').style.backgroundColor="#ffeed7"}>Resume</NavLink>
               <NavLink className="nav-link services" to="/services" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7ffd7"}>Services</NavLink>
-              <NavLink className="nav-link portfolio" to="/portfolio" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7fffd"}>Portfolio</NavLink>
+              <a className="nav-link portfolio" href="#">Portfolio</a>
               <a className="nav-link contact" href="#">Contact</a>
             </div>
           </div>
