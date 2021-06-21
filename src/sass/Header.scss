@@ -1,6 +1,5 @@
 .Header {
     .navbar {
-        background-color: #d7e8ff !important;
         .navbar-brand,
         .navbar-nav,
         .navbar-toggler {
@@ -25,9 +24,42 @@
                 margin: 0.5rem;
                 border-radius: 0.5rem;
                 font-size: 0.9rem;
+            }
+            .home {
+                &.active,
                 &:hover {
                     background-color: #d7e8ff;
                     border-radius: 0.5rem;
+                }
+            }
+            .about {
+                &.active,
+                &:hover {
+                    background-color: #d7ddff;
+                }
+            }
+            .resume {
+                &.active,
+                &:hover {
+                    background-color: #ffeed7;
+                }
+            }
+            .services {
+                &.active,
+                &:hover {
+                    background-color: #d7ffd7;
+                }
+            }
+            .portfolio {
+                &.active,
+                &:hover {
+                    background-color: #d7fffd;
+                }
+            }
+            .contact {
+                &.active,
+                &:hover {
+                    background-color: #f4d7ff;
                 }
             }
         }
