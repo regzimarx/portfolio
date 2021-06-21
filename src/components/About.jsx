@@ -4,7 +4,9 @@ function About() {
 
   return (
     <div className="About">
-      About
+      <div className="container">
+        About page
+      </div>
     </div>
   )
 
