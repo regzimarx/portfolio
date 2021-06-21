@@ -6,6 +6,7 @@ import Home from './Home'
 import About from './About'
 import Resume from './Resume'
 import Services from './Services'
+import Portfolio from './Portfolio'
 
 import '../sass/App.scss'
 
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
           </Route>
         </Switch>
       </BrowserRouter>
