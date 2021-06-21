@@ -28,8 +28,8 @@ function Header() {
           <div className="flex-grow-0 collapse navbar-collapse" id="navbarNavAltMarkup" ref={collapse}>
             <div className="navbar-nav">
               <NavLink className="nav-link home" to="/" exact={true} onClick={()=>document.querySelector('.App').style.backgroundColor="#d7e8ff"}>Home</NavLink>
-              <NavLink className="nav-link about" to="/about" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7fff3"}>About</NavLink>
-              <a className="nav-link resume" href="#">Resume</a>
+              <NavLink className="nav-link about" to="/about" onClick={()=>document.querySelector('.App').style.backgroundColor="#d7ddff"}>About</NavLink>
+              <NavLink className="nav-link resume" to="/resume" onClick={()=>document.querySelector('.App').style.backgroundColor="#ffeed7"}>Resume</NavLink>
               <a className="nav-link services" href="#">Services</a>
               <a className="nav-link portfolio" href="#">Portfolio</a>
               <a className="nav-link contact" href="#">Contact</a>
