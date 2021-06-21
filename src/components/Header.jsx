@@ -13,7 +13,7 @@ function Header() {
     <div className="Header">
       <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">RA</a>
+          <NavLink className="navbar-brand" to="/" exact={true}>RA</NavLink>
           <div className="navbar-nav flex-row">
               <a className="nav-link" href="#">
                 <i className="bi bi-currency-dollar"></i>
